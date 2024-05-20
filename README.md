@@ -19,5 +19,5 @@ Dataset details
 17. Platelets: platelets per cubic [ml/1000]
 18. Prothrombin: prothrombin time in seconds [s]
 19. Stage: histologic stage of disease ( 1, 2, or 3 )
-Using these predictors, I built a gradient boosting model to predict the stages of liver cirrhosis in each patient. I also used the grid search technique to tune the hyper parameters and find the ideal parametric conditions to predict the outcome. Recall was used to evaluate model performance since the cost of false negative predictions is high.
+Using these predictors, I built a random forest model to predict the stages of liver cirrhosis in each patient. I also used the grid search technique to tune the hyper parameters and find the ideal parametric conditions to predict the outcome. Recall was used to evaluate model performance since the cost of false negative predictions is high.
 
